@@ -1,9 +1,9 @@
-# Fabric Example Mod
+# Pony18Craft Mod
 
 ## Setup
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+Just use .jar file in your minecraft 1.19.4 version
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+...
