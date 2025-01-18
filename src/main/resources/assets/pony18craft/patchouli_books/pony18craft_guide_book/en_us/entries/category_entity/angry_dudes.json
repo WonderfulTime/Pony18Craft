@@ -1,0 +1,26 @@
+{
+  "name": "Злые чувачки",
+  "category": "pony18craft:category_entity",
+  "sortnum": 1,
+  "icon": "pony18craft:gnome_cock_thief_spawn_egg",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:air",
+      "title": "Злые чувачки",
+      "text": "Обитатель лесов и болот. По слухам ворует причиндалы."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "pony18craft:gnome_cock_thief",
+      "scale": 1.0,
+
+      "text": "Автор: "
+
+    }
+
+
+
+
+  ]
+}

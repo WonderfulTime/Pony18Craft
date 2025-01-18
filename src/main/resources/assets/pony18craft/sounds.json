@@ -1,0 +1,112 @@
+{
+  "mudaton_music_disc": {
+
+    "sounds": [
+
+      {
+        "name": "pony18craft:mudaton_music_sound",
+        "stream": true
+
+
+      }
+    ]
+  },
+  "tony_tony_chopper_music_disc": {
+
+    "sounds": [
+
+      {
+        "name": "pony18craft:tony_tony_chopper_music_sound",
+        "stream": true
+
+
+      }
+    ]
+  },
+
+  "pony_waifu_music_disc": {
+
+    "sounds": [
+
+      {
+        "name": "pony18craft:pony_waifu_music_sound",
+        "stream": true
+
+
+      }
+    ]
+  },
+  "yarilo_music_disc": {
+
+    "sounds": [
+
+      {
+        "name": "pony18craft:yarilo_music_sound",
+        "stream": true
+
+
+      }
+    ]
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "gnome_laugh_sound": {
+    "subtitle": "pony18craft:entity.gnome.gnome_laugh_sound",
+    "sounds": [
+      "pony18craft:entity/gnome/gnome_laugh_sound"
+    ]
+  },
+
+  "gnome_taken_damage_sound": {
+    "subtitle": "pony18craft:entity.gnome.gnome_taken_damage_sound",
+    "sounds": [
+      "pony18craft:entity/gnome/gnome_taken_damage_sound"
+    ]
+  },
+
+  "gnome_footsteps_sound": {
+    "subtitle": "pony18craft:entity.gnome.gnome_footsteps_sound",
+    "sounds": [
+      "pony18craft:entity/gnome/gnome_footsteps_sound_1",
+      "pony18craft:entity/gnome/gnome_footsteps_sound_2",
+      "pony18craft:entity/gnome/gnome_footsteps_sound_3"
+    ]
+  },
+
+
+  "skromnyaga_ambient_sound": {
+    "subtitle": "pony18craft:entity.skromnyaga.skromnyaga_ambient_sound",
+    "sounds": [
+      "pony18craft:entity/skromnyaga/skromnyaga_ambient_sound"
+    ]
+  }
+
+
+
+
+
+}

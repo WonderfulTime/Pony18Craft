@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "pony18craft",
+  "version": "${version}",
+  "name": "Pony18Craft Mod",
+  "description": "This is fan meme mod about 18Pony discord channel",
+  "authors": [
+    "TWT"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/WonderfulTime"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/pony18craft/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.thewonderfultime.pony18craft.Pony18craft"
+    ],
+    "client": [
+      "net.thewonderfultime.pony18craft.pony18craftClient"
+    ],
+    "fabric-datagen": [
+      "net.thewonderfultime.pony18craft.Pony18CraftDataGenerator"
+    ]
+  },
+  "mixins": [
+    "pony18craft.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric-api": "*",
+    "minecraft": "~1.19.4",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  },
+
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric-api": "*",
+    "minecraft": "~1.19.4",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

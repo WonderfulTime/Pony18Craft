@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "pony18craft:block/beer_block"
+    }
+  }
+}

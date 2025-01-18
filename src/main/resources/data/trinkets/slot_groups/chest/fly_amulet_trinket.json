@@ -1,0 +1,7 @@
+{
+  "slot": "chest/necklace",
+  "order": 0,
+  "size": 1,
+  "icon": "pony18craft:textures/item/fly_amulet_texture",
+  "drop_rule": "keep"
+}

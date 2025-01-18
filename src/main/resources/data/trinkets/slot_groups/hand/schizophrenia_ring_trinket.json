@@ -1,0 +1,7 @@
+{
+  "slot": "hand/ring",
+  "order": 0,
+  "size": 1,
+  "icon": "pony18craft:textures/item/schizophrenia_ring_trinket_texture",
+  "drop_rule": "keep"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Рецепты",
+  "category": "pony18craft:category_recipe",
+  "icon": "minecraft:crafting_table",
+  "pages": [
+
+    {
+      "type": "patchouli:smelting",
+      "recipe": "pony18craft:baked_oreshek_from_smelting_oreshek",
+      "title": "Прожаренный орешек",
+      "text": "Переплавленный орешек, доставляет массу удовольствия при поедании. Вызывает привыкание."
+    }
+
+
+
+
+  ]
+}

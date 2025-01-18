@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "pony18craft:block/pivo_block"
+    },
+    "facing=south": {
+      "model": "pony18craft:block/pivo_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pony18craft:block/pivo_block",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "pony18craft:block/pivo_block",
+      "y": 90
+    }
+  }
+}

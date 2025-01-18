@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "pony18craft:item/yarilo_music_disc"
+  }
+}

@@ -1,0 +1,11 @@
+###
+Команда для спавна сундука с генер лутом
+
+/setblock ~ ~ ~ minecraft:chest{LootTable:"pony18craft:chests/gnome_village"}
+
+###
+в book.json можно юзать pamphlet, чтобы убрать категории
+
+"pamphlet": true
+
+###

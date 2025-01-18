@@ -1,0 +1,19 @@
+{
+  "name": "Справочник Для Одаренных",
+  "landing_text": "Добро пожаловать в путеводитель для тех, кому недавно стукнуло 54! У вас прогрессивная деменция, обычные дни в Фарпосте уже не приносят кайфа, а только головную боль? Приключения не колыхают шишку?! Тогда этот справочник точно для вас, он позволит воплотить в жизнь самые интересные и безумные идеи! Следуйте советам и станете самым успешным сотрудником Фарпоста.",
+  "version": "1",
+  "book_texture": "patchouli:textures/gui/book_green.png",
+  "model": "patchouli:book_green",
+  "text_color": "000000",
+  "nameplate_color": "FFFFFF",
+  "subtitle_color": "333333",
+  "use_blocky_font": false,
+  "creative_tab": "pony18craft:pony18craft_group",
+  "show_progress": false,
+  "index_icon": "minecraft:book",
+  "custom_book_item": "minecraft:book",
+  "subtitle": "Справочник для твоего мода",
+  "use_resource_pack": true,
+  "debug": false
+
+}

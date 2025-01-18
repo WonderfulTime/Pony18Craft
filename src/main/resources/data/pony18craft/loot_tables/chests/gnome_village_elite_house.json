@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 5,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot",
+          "weight": 3
+        },
+
+
+        {
+          "type": "minecraft:item",
+          "name": "pony18craft:baked_oreshek",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pony18craft:pony_waifu_music_disc",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

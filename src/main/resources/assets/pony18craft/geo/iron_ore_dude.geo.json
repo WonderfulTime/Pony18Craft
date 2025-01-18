@@ -1,0 +1,49 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 256,
+				"texture_height": 256,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Body",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-6, 2, -6],
+							"size": [12, 12, 12],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [256, 256]},
+								"east": {"uv": [0, 0], "uv_size": [256, 256]},
+								"south": {"uv": [0, 0], "uv_size": [256, 256]},
+								"west": {"uv": [0, 0], "uv_size": [256, 256]},
+								"up": {"uv": [0, 0], "uv_size": [256, 256]},
+								"down": {"uv": [0, 256], "uv_size": [256, -256]}
+							}
+						}
+					]
+				},
+				{
+					"name": "lLeg",
+					"pivot": [-2, 2, 0],
+					"cubes": [
+						{"origin": [-3, 0, -1], "size": [2, 2, 2], "uv": [102, 38]}
+					]
+				},
+				{
+					"name": "rLeg",
+					"pivot": [2, 2, 0],
+					"cubes": [
+						{"origin": [1, 0, -1], "size": [2, 2, 2], "uv": [104, 36]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Добрые чувачки",
+  "category": "pony18craft:category_entity",
+  "sortnum": 0,
+  "icon": "pony18craft:gnome_spawn_egg",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:air",
+      "title": "Добрые чувачки",
+      "text": "Лесной житель. Не любит когда его трогают, плавят в печи и бросают. Довольно капризный малый. "
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "pony18craft:gnome",
+      "scale": 1.0,
+
+      "text": "Автор: "
+
+    }
+
+
+
+
+
+
+
+  ]
+}

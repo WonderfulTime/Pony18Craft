@@ -1,0 +1,42 @@
+{
+  "name": "Странные создания",
+  "category": "pony18craft:category_entity",
+  "sortnum": 2,
+  "icon": "pony18craft:skromnyaga_spawn_egg",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:air",
+      "title": "Странные создания",
+      "text": "Обитатель подстоликового королевства. Любитель милф и сырых пещер. Не любитель всего остального."
+    },
+    {
+      "type": "patchouli:entity",
+
+      "entity": "pony18craft:skromnyaga",
+      "scale": 0.6,
+      "x": 20,
+      "y": 30,
+
+      "text": "Автор: "
+
+    },
+
+
+
+    {
+      "type": "patchouli:text",
+      "text": "Странный малый, довольно пугливый. Ещё бы, ты себя-то видел!?"
+    },
+    {
+      "type": "patchouli:entity",
+
+      "entity": "pony18craft:iron_ore_dude",
+      "scale": 0.8,
+
+      "text": "Автор: "
+
+    }
+
+  ]
+}

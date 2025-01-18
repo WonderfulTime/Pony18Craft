@@ -1,0 +1,37 @@
+{
+  "name": "Предметики",
+  "category": "pony18craft:category_common_items",
+  "icon": "pony18craft:oreshek",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "pony18craft:oreshek",
+      "title": "Орешек",
+      "text": "Ломая листву выпал этот несозревший плод? Подумай дважды, прежде чем его употреблять в пищу, возможно прямая кишка не оценит."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "pony18craft:pivo_block",
+      "title": "Бутылка пива",
+      "text": "Это... пиво. Что еще можно добавить..."
+    },
+
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "pony18craft:pivo_block",
+      "title": "Рецепт приготовления",
+      "text": "..."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "pony18craft:pivo_block",
+      "title": "Рецепт приготовления",
+      "text": ""
+    }
+
+
+
+
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "group": "food",
+  "ingredient": {
+    "item": "pony18craft:oreshek"
+  },
+  "result": "pony18craft:baked_oreshek"
+}

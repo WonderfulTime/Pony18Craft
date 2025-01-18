@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "pony18craft:item/tony_tony_chopper_music_disc"
+  }
+}

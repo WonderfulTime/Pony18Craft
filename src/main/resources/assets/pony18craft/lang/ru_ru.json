@@ -1,0 +1,44 @@
+{
+  "item.pony18craft.oreshek": "Орешек",
+  "block.pony18craft.beer_block": "Пивной Ящик",
+  "item.pony18craft.gay_magic_wand": "Радужный Посох",
+  "item.pony18craft.gay_board_sword": "Оочень Длинная Клавиатура",
+  "item.pony18craft.baked_oreshek": "Запекшийся Орешек",
+  "block.pony18craft.pivo_block": "Пиво",
+
+  "entity.pony18craft.gnome_cock_thief": "Гном Хуекрад",
+  "item.pony18craft.gnome_cock_thief_spawn_egg": "Яйцо призыва гнома хуекрада",
+
+  "entity.pony18craft.wood_dude": "Древесный Чувачок",
+  "item.pony18craft.wood_dude_spawn_egg": "Яйцо призыва древесного чувачка",
+
+  "item.pony18craft.mudaton_music_disc": "Empire of Gesse - HARD DRIVE (Мудатон)",
+  "item.pony18craft.tony_tony_chopper_music_disc": "Dr. Tony Tony Chopper",
+
+  "item.pony18craft.yarilo_music_disc": "Встаёт Ярило",
+  "item.pony18craft.yarilo_music_disc.desc": "Встаёт Ярило",
+
+  "entity.pony18craft.iron_ore_dude": "Рудовичок",
+  "item.pony18craft.iron_ore_dude_spawn_egg": "Яйцо призыва железного рудовичка",
+
+  "entity.pony18craft.skromnyaga": "Скромняга",
+  "item.pony18craft.skromnyaga_spawn_egg": "Яйцо призыва скромняги",
+
+  "entity.pony18craft.gnome": "Гномик",
+  "item.pony18craft.gnome_spawn_egg": "Яйцо призыва гномика",
+
+
+  "effect.pony18craft.schizophrenia": "Шизофрения",
+  "item.pony18craft.schizophrenia_ring_trinket": "Шизо Кольцо",
+
+  "item.pony18craft.fly_amulet_trinket": "Амулет Левитации",
+
+  "item.pony18craft.throwing_gnome": "Метательный Гномик",
+
+  "item.pony18craft.khmeli_suneli": "Хмели-Сунели",
+
+  "item.pony18craft.chashushuli": "Чашушули",
+
+
+  "itemGroup.pony18craft.pony18craft_group": "Pony18Craft"
+}
