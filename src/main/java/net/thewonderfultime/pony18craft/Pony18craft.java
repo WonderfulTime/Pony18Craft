@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.loader.api.FabricLoader;
 import net.thewonderfultime.pony18craft.Item.ModItems;
+import net.thewonderfultime.pony18craft.Item.TooltipRegistry;
 import net.thewonderfultime.pony18craft.block.ModBlocks;
 import net.thewonderfultime.pony18craft.effects.ModEffects;
 import net.thewonderfultime.pony18craft.entity.ModEntities;
@@ -31,6 +32,8 @@ public class Pony18craft implements ModInitializer {
 		ModPaintings.registerPaintings();
 
 		ModWorldGeneration.generateModWorldGen();
+
+		TooltipRegistry.initialize();
 
 		ModEffects.registerModEffects();
 

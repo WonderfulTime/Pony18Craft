@@ -18,19 +18,23 @@ public class ModBlocks {
 
 //    создание блока и настройка его материала и твердости
     public static final Block BEER_BLOCK = registerBlock("beer_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(3.0f).requiresTool().luminance(1).nonOpaque()), ModItemGroups.Pony18CraftGroup);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(3.0f).requiresTool().luminance(1).nonOpaque()),
+        ModItemGroups.Pony18CraftGroup,
+        "Обычный ящик с пивом");
 
     public static final Block PIVO_BLOCK = registerBlock("pivo_block",
-            new PivoBlock(FabricBlockSettings.of(Material.GLASS).strength(1.0f).requiresTool().nonOpaque().luminance(1)), ModItemGroups.Pony18CraftGroup);
+            new PivoBlock(FabricBlockSettings.of(Material.GLASS).strength(1.0f).requiresTool().nonOpaque().luminance(1)),
+            ModItemGroups.Pony18CraftGroup,
+            "Слегка солоноватое пиво");
 
-    private static Block registerBlock(String id, Block block, ItemGroup itemGroup){
-        ModItems.registerItem(id, new BlockItem(block, new FabricItemSettings()), itemGroup);
+    private static Block registerBlock(String id, Block block, ItemGroup itemGroup, String description){
+        ModItems.registerItem(id, new BlockItem(block, new FabricItemSettings()), itemGroup, description);
 
         return Registry.register(Registries.BLOCK, new Identifier(Pony18craft.MOD_ID, id), block);
     };
 
-    private static Block registerBlock(String id, Block block){
-        ModItems.registerItem(id, new BlockItem(block, new FabricItemSettings()));
+    private static Block registerBlock(String id, Block block, String description){
+        ModItems.registerItem(id, new BlockItem(block, new FabricItemSettings()), description);
 
         return Registry.register(Registries.BLOCK, new Identifier(Pony18craft.MOD_ID, id), block);
     };
