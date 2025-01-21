@@ -39,6 +39,20 @@ public class ModEntityLootTableGenerator extends SimpleFabricLootTableProvider {
                                 )
                         )
         );
+
+        // Таблица лута для сущности WOOD_DUDE
+        identifierBuilderBiConsumer.accept(
+                ModEntities.WOOD_DUDE.getLootTableId(), // ID таблицы лута
+                LootTable.builder()
+                        .pool(LootPool.builder()
+                                .rolls(UniformLootNumberProvider.create(1.0F, 1.0F)) // Количество пулов: 1
+                                .with(ItemEntry.builder(Items.OAK_WOOD)// Что будет выпадать
+
+                                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0F, 1.0F)))
+                                        .conditionally(RandomChanceLootCondition.builder(0.5f)) // Шанс дропа: 100%
+                                )
+                        )
+        );
     }
 
 

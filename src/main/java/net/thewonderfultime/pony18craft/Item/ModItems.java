@@ -14,6 +14,7 @@ import net.thewonderfultime.pony18craft.Item.custom.trinkets.FlyAmuletTrinket;
 import net.thewonderfultime.pony18craft.Item.custom.trinkets.SchizophreniaRingTrinket;
 import net.thewonderfultime.pony18craft.Item.materials.CommonToolMaterial;
 import net.thewonderfultime.pony18craft.Pony18craft;
+import net.thewonderfultime.pony18craft.block.ModBlocks;
 import net.thewonderfultime.pony18craft.entity.ModEntities;
 
 import net.thewonderfultime.pony18craft.sound.ModSounds;
@@ -51,6 +52,15 @@ public class ModItems {
     public static final Item WOOD_DUDE_SPAWN_EGG = registerItem("wood_dude_spawn_egg",
             new SpawnEggItem(ModEntities.WOOD_DUDE, 0x00497898, 0x00263D4C,
                     new FabricItemSettings()), ModItemGroups.Pony18CraftGroup,
+            "");
+
+
+    /**
+     * посевы
+     */
+    public static final Item KHMELI_SUNELI_SEEDS = registerItem("khmeli_suneli_seeds",
+            new AliasedBlockItem(ModBlocks.KHMELI_SUNELI_CROP,
+                     new FabricItemSettings()), ModItemGroups.Pony18CraftGroup,
             "");
 
     /**

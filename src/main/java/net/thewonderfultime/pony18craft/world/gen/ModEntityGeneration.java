@@ -66,7 +66,7 @@ public class ModEntityGeneration {
                         BiomeKeys.WARPED_FOREST,
                         BiomeKeys.OLD_GROWTH_BIRCH_FOREST,
                         BiomeKeys.WINDSWEPT_FOREST), SpawnGroup.CREATURE, ModEntities.GNOME,
-                35,1, 1);
+                40,1, 2);
 
         /*
         в каком месте спаун, на земле, в небе и тд

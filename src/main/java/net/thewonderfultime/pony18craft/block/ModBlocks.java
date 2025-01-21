@@ -3,6 +3,7 @@ package net.thewonderfultime.pony18craft.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.ItemGroup;
@@ -12,6 +13,7 @@ import net.minecraft.util.Identifier;
 import net.thewonderfultime.pony18craft.Item.ModItemGroups;
 import net.thewonderfultime.pony18craft.Item.ModItems;
 import net.thewonderfultime.pony18craft.Pony18craft;
+import net.thewonderfultime.pony18craft.block.custom.KhmeliSuneliCropBlock;
 import net.thewonderfultime.pony18craft.block.custom.PivoBlock;
 
 public class ModBlocks {
@@ -27,6 +29,23 @@ public class ModBlocks {
             ModItemGroups.Pony18CraftGroup,
             "Слегка солоноватое пиво");
 
+    public static final Block KHMELI_SUNELI_CROP = registerBlockWithoutItem("khmeli_suneli_crop",
+            new KhmeliSuneliCropBlock(FabricBlockSettings.copy(Blocks.WHEAT)));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     private static Block registerBlock(String id, Block block, ItemGroup itemGroup, String description){
         ModItems.registerItem(id, new BlockItem(block, new FabricItemSettings()), itemGroup, description);
 
@@ -34,7 +53,16 @@ public class ModBlocks {
     };
 
     private static Block registerBlock(String id, Block block, String description){
+        //регистрация блоков без группы
         ModItems.registerItem(id, new BlockItem(block, new FabricItemSettings()), description);
+
+        return Registry.register(Registries.BLOCK, new Identifier(Pony18craft.MOD_ID, id), block);
+    };
+
+
+    private static Block registerBlockWithoutItem(String id, Block block){
+        // регистрация всяких посевов и прочего
+
 
         return Registry.register(Registries.BLOCK, new Identifier(Pony18craft.MOD_ID, id), block);
     };

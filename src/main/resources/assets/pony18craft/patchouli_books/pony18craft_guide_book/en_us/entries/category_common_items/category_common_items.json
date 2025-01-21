@@ -19,19 +19,25 @@
 
     {
       "type": "patchouli:spotlight",
-      "item": "pony18craft:pivo_block",
-      "title": "Рецепт приготовления",
-      "text": "..."
+      "item": "pony18craft:khmeli_suneli",
+      "title": "Хмели-Сунели",
+      "text": "Приправа богов"
     },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "pony18craft:textures/gui/entries/khmelisuneli_meme_img.png"
+
+      ],
+      "scale": 1.0
+    },
+
+
     {
       "type": "patchouli:spotlight",
       "item": "pony18craft:pivo_block",
-      "title": "Рецепт приготовления",
-      "text": ""
+      "title": "Бутылка пива",
+      "text": "..."
     }
-
-
-
-
   ]
 }

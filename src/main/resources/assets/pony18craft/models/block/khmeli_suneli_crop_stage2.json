@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "pony18craft:block/khmeli_suneli_crop_stage2"
+  }
+}
