@@ -1,6 +1,8 @@
 package net.thewonderfultime.pony18craft.Item;
 
 import net.fabricmc.fabric.api.client.item.v1.ItemTooltipCallback;
+import net.fabricmc.loader.api.FabricLoader;
+import net.fabricmc.api.EnvType;
 import net.minecraft.item.Item;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
@@ -17,11 +19,14 @@ public class TooltipRegistry {
     }
 
     public static void initialize() {
-        ItemTooltipCallback.EVENT.register((stack, context, lines) -> {
-            Item item = stack.getItem();
-            if (tooltips.containsKey(item)) {
-                lines.add(Text.literal(tooltips.get(item)).formatted(Formatting.GRAY));
-            }
-        });
+        if (FabricLoader.getInstance().getEnvironmentType() == EnvType.CLIENT) {
+            // Проверка на клиентскую среду
+            ItemTooltipCallback.EVENT.register((stack, context, lines) -> {
+                Item item = stack.getItem();
+                if (tooltips.containsKey(item)) {
+                    lines.add(Text.literal(tooltips.get(item)).formatted(Formatting.GRAY));
+                }
+            });
+        }
     }
 }
