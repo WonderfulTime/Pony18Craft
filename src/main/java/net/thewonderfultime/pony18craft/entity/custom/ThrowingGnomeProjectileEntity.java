@@ -5,12 +5,14 @@ import net.minecraft.entity.EntityType;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.projectile.PersistentProjectileEntity;
 import net.minecraft.item.ItemStack;
+import net.minecraft.sound.SoundCategory;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.hit.EntityHitResult;
 import net.minecraft.world.World;
 import net.thewonderfultime.pony18craft.Item.ModItems;
 import net.thewonderfultime.pony18craft.entity.ModEntities;
 import net.minecraft.util.math.Direction;
+import net.thewonderfultime.pony18craft.sound.ModSounds;
 import org.joml.Vector2f;
 import software.bernie.geckolib.core.animatable.GeoAnimatable;
 import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
@@ -53,28 +55,37 @@ public class ThrowingGnomeProjectileEntity extends PersistentProjectileEntity im
     // Столкновение с сущностью
     @Override
     protected void onEntityHit(EntityHitResult entityHitResult) {
-        super.onEntityHit(entityHitResult);
-
+        // Заменяем логику
         Entity entity = entityHitResult.getEntity();
-        // Наносим 4 сердечка урона
         entity.damage(this.getDamageSources().thrown(this, this.getOwner()), 8.0F);
 
-        // Превращаемся в обычного гнома после столкновения
         if (!this.getWorld().isClient()) {
+            this.getWorld().playSound(null, this.getX(), this.getY(), this.getZ(),
+                    ModSounds.GNOME_TAKEN_DAMAGE_SOUND, // Ваш кастомный звук
+                    SoundCategory.PLAYERS, // Категория звука
+                    1.0F, // Громкость
+                    1.0F // Тон
+            );
             spawnIdleGnome();  // Спавн обычного гнома
             this.discard();    // Убираем метательный объект
         }
+        // Не вызываем super.onEntityHit, чтобы предотвратить стандартное поведение
     }
 
     @Override
     protected void onBlockHit(BlockHitResult blockHitResult) {
-        super.onBlockHit(blockHitResult);
-
-        // Превращаемся в обычного гнома после приземления
+        // Заменяем логику
         if (!this.getWorld().isClient()) {
+            this.getWorld().playSound(null, this.getX(), this.getY(), this.getZ(),
+                    ModSounds.GNOME_TAKEN_DAMAGE_SOUND, // Ваш кастомный звук
+                    SoundCategory.PLAYERS, // Категория звука
+                    1.0F, // Громкость
+                    1.0F // Тон
+            );
             spawnIdleGnome();  // Спавн обычного гнома
             this.discard();    // Убираем метательный объект
         }
+        // Не вызываем super.onBlockHit, чтобы предотвратить стандартное поведение
     }
 
     // Метод для спавна обычного GnomeEntity
