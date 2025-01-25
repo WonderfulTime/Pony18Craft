@@ -1,5 +1,7 @@
-// 1.19.4	2025-01-24T23:52:20.1698396	Pony18Craft Mod/Recipes
+// 1.19.4	2025-01-25T23:39:22.8488585	Pony18Craft Mod/Recipes
 13c65f7f944e7bf0203470d1b7225f007c42df7b data\pony18craft\recipes\beer_block.json
 9ae1d13fdbe3998974ee808ec6a727a43055c976 data\pony18craft\recipes\baked_oreshek_from_smelting_oreshek.json
+dcbaefeef228ad8e770d31eac8b94c6244c75752 data\pony18craft\advancements\recipes\misc\hans_coin_gold.json
 9851f27992b0824f3c21330891d09028ca21140c data\pony18craft\advancements\recipes\misc\baked_oreshek_from_smelting_oreshek.json
 54e760520feb539bb8b582eac98dfad4eb52d60f data\pony18craft\advancements\recipes\food\beer_block.json
+9a1cb7f5de1db07d1636c91c27a73d1668bff9b0 data\pony18craft\recipes\hans_coin_gold.json

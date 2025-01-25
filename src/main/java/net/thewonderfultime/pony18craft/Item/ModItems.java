@@ -54,6 +54,18 @@ public class ModItems {
                     new FabricItemSettings()), ModItemGroups.Pony18CraftGroup,
             "");
 
+    public static final Item HANS_COIN_SILVER = registerItem("hans_coin_silver",
+            new Item(new FabricItemSettings()),
+            ModItemGroups.Pony18CraftGroup,
+            "Универсальная валюта"
+    );
+
+    public static final Item HANS_COIN_GOLD = registerItem("hans_coin_gold",
+            new Item(new FabricItemSettings()),
+            ModItemGroups.Pony18CraftGroup,
+            "Универсальная валюта"
+    );
+
 
     /**
      * посевы

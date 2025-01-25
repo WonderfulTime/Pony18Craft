@@ -47,5 +47,14 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion("has_pivo_block", conditionsFromItem(ModBlocks.PIVO_BLOCK)) // Используем корректные conditions
                 .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModBlocks.BEER_BLOCK)));
 
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.HANS_COIN_GOLD)
+                .pattern("###")
+                .pattern("###")
+                .pattern("###")
+                .input('#', Ingredient.ofItems(ModItems.HANS_COIN_SILVER))
+                .criterion("has_hans_coin_silver", conditionsFromItem(ModItems.HANS_COIN_SILVER)) // Используем корректные conditions
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.HANS_COIN_GOLD)));
+
     }
 }
