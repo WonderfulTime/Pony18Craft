@@ -4,9 +4,12 @@
   "package": "net.thewonderfultime.pony18craft.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+  "PlayerEntityMixin"
+
   ],
   "client": [
-    "Pony18craftMixin"
+    "Pony18craftMixin",
+    "PlayerEntityRendererMixin"
   ],
   "injectors": {
     "defaultRequire": 1

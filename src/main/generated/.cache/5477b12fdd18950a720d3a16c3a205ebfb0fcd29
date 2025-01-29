@@ -1,8 +1,8 @@
-// 1.19.4	2025-01-25T23:39:22.8418779	Pony18Craft Mod/Block Loot Tables
+// 1.19.4	2025-01-28T03:54:48.1042644	Pony18Craft Mod/Block Loot Tables
 702f404c0bded061870948afdd705ad933dccb4b data\minecraft\loot_tables\blocks\mangrove_leaves.json
 702f404c0bded061870948afdd705ad933dccb4b data\minecraft\loot_tables\blocks\acacia_leaves.json
-702f404c0bded061870948afdd705ad933dccb4b data\minecraft\loot_tables\blocks\dark_oak_leaves.json
 702f404c0bded061870948afdd705ad933dccb4b data\minecraft\loot_tables\blocks\jungle_leaves.json
+702f404c0bded061870948afdd705ad933dccb4b data\minecraft\loot_tables\blocks\dark_oak_leaves.json
 702f404c0bded061870948afdd705ad933dccb4b data\minecraft\loot_tables\blocks\birch_leaves.json
 702f404c0bded061870948afdd705ad933dccb4b data\minecraft\loot_tables\blocks\spruce_leaves.json
 702f404c0bded061870948afdd705ad933dccb4b data\minecraft\loot_tables\blocks\oak_leaves.json

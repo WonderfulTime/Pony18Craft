@@ -172,6 +172,12 @@ public class ModItems {
             "Томлёная в томатном соусе телятина со сладким перцем, луком, чесноком, кинзой и домашней аджикой."
     );
 
+    public static final Item GYROS = registerItem("gyros",
+            new Item(new FabricItemSettings().food(CustomFoodWithEffects.BOSS_KFC_FOOD)),
+            ModItemGroups.Pony18CraftGroup,
+            ""
+    );
+
 
 
 

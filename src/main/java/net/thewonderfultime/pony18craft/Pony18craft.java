@@ -11,6 +11,7 @@ import net.thewonderfultime.pony18craft.entity.ModEntities;
 import net.thewonderfultime.pony18craft.entity.custom.*;
 import net.thewonderfultime.pony18craft.painting.ModPaintings;
 import net.thewonderfultime.pony18craft.world.custom_events.ModBlockBreakHandler;
+import net.thewonderfultime.pony18craft.world.custom_events.PlayerSizeHandler;
 import net.thewonderfultime.pony18craft.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -38,6 +39,8 @@ public class Pony18craft implements ModInitializer {
 		ModEffects.registerModEffects();
 
 		ModBlockBreakHandler.register();
+
+		PlayerSizeHandler.register(); // Запускаем логику изменения хитбокса
 
 		FabricDefaultAttributeRegistry.register(ModEntities.GNOME_COCK_THIEF, GnomeCockThiefEntity.setAttributes());
 		FabricDefaultAttributeRegistry.register(ModEntities.IRON_ORE_DUDE, IronOreDudeEntity.setAttributes());

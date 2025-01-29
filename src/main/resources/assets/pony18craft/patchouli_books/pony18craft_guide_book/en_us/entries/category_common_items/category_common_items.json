@@ -38,6 +38,13 @@
       "item": "pony18craft:pivo_block",
       "title": "Бутылка пива",
       "text": "..."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "pony18craft:gyros",
+      "title": "Гирос",
+      "text": "После пары укусов понадобится не меч, а диетолог"
     }
   ]
 }

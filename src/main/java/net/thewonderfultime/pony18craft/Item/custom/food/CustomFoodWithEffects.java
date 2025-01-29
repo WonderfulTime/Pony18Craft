@@ -4,6 +4,7 @@ package net.thewonderfultime.pony18craft.Item.custom.food;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.FoodComponent;
+import net.thewonderfultime.pony18craft.effects.ModEffects;
 
 public class CustomFoodWithEffects {
 
@@ -36,5 +37,15 @@ public class CustomFoodWithEffects {
             .statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 40 * 20, 1), 1.0f)
             .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 80 * 20, 0), 1.0f)
             .build();
+
+
+    public static final FoodComponent BOSS_KFC_FOOD = new FoodComponent.Builder()
+            .hunger(6)
+            .saturationModifier(1.2f)
+            .statusEffect(new StatusEffectInstance(ModEffects.BOSS_KFC, 20 * 20, 0), 1.0f) // Эффект на 20 секунд
+            .build();
+
+
+
 
 }

@@ -5,6 +5,7 @@ import net.minecraft.entity.effect.StatusEffectCategory;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.thewonderfultime.pony18craft.effects.custom.BossKFCEffect;
 import net.thewonderfultime.pony18craft.effects.custom.SchizophreniaEffect;
 
 public class ModEffects {
@@ -14,7 +15,10 @@ public class ModEffects {
     );
 
 
-
+    public static final StatusEffect BOSS_KFC = registerEffect(
+            "boss_kfc",
+            new BossKFCEffect(StatusEffectCategory.BENEFICIAL, 0xFFD700)
+    );
 
 
 
