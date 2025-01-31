@@ -144,6 +144,11 @@ public class ModItems {
             ModItemGroups.Pony18CraftGroup,
             "");
 
+    public static  ToolItem GNOME_PICKAXE = (ToolItem) registerItem("gnome_pickaxe", new PickaxeItem(ToolMaterials.IRON,
+                    1, 9, new FabricItemSettings()),
+            ModItemGroups.Pony18CraftGroup,
+            "Маленбкая жестб");
+
 
     /**
      * еда
