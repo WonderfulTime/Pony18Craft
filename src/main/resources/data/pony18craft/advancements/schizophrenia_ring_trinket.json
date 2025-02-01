@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "pony18craft:schizophrenia_ring_trinket"
+    },
+    "title": "Шиза крепчала...",
+    "description": "Создать кольцо шизофрении",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "pony18craft:pony18craft",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pony18craft:schizophrenia_ring_trinket"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

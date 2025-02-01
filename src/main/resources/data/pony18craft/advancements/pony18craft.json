@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "pony18craft:oreshek"
+    },
+    "title": "Первые странности",
+    "description": "Начало шизового путешествия",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "background": "pony18craft:textures/block/pivo_bottle_base.png"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pony18craft:oreshek"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "pony18craft:throwing_gnome"
+    },
+    "title": "Верни на место!!!",
+    "description": "Взять в руки метательного гномика",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "pony18craft:pony18craft",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pony18craft:throwing_gnome"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

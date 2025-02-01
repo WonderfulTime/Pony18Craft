@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "pony18craft:gnome_pickaxe"
+    },
+    "title": "Объясни свою маленькость",
+    "description": "Своровать кирку у гномика",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "pony18craft:pony18craft",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pony18craft:gnome_pickaxe"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
