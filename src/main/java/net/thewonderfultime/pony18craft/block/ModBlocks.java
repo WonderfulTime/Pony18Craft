@@ -15,6 +15,8 @@ import net.thewonderfultime.pony18craft.Item.ModItems;
 import net.thewonderfultime.pony18craft.Pony18craft;
 import net.thewonderfultime.pony18craft.block.custom.KhmeliSuneliCropBlock;
 import net.thewonderfultime.pony18craft.block.custom.PivoBlock;
+import net.thewonderfultime.pony18craft.block.custom.SkewerWithPigBlock;
+import net.thewonderfultime.pony18craft.block.custom.SkewerWithPigFriedBlock;
 
 public class ModBlocks {
 
@@ -29,8 +31,32 @@ public class ModBlocks {
             ModItemGroups.Pony18CraftGroup,
             "Слегка солоноватое пиво");
 
+
+    /**
+     * ростки
+     */
     public static final Block KHMELI_SUNELI_CROP = registerBlockWithoutItem("khmeli_suneli_crop",
             new KhmeliSuneliCropBlock(FabricBlockSettings.copy(Blocks.WHEAT)));
+
+
+    /**
+     *
+     * спец блоки
+     */
+
+    public static final Block SKEWER_WITH_PIG = registerBlock("skewer_with_pig",
+            new SkewerWithPigBlock(FabricBlockSettings.of(Material.BAMBOO).strength(1.0f).nonOpaque().luminance(1)),
+            ModItemGroups.Pony18CraftGroup,
+            "Лучше сырым не есть...");
+
+
+    public static final Block SKEWER_WITH_PIG_FRIED = registerBlock("skewer_with_pig_fried",
+            new SkewerWithPigFriedBlock(FabricBlockSettings.of(Material.BAMBOO).strength(1.0f).nonOpaque().luminance(1)),
+            ModItemGroups.Pony18CraftGroup,
+            "О боже... что ты наделал...");
+
+
+
 
 
 

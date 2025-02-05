@@ -9,6 +9,7 @@ import net.minecraft.util.Identifier;
 import net.thewonderfultime.pony18craft.Item.custom.GayMagicWand;
 import net.thewonderfultime.pony18craft.Item.custom.food.CustomFoodWithEffects;
 
+import net.thewonderfultime.pony18craft.Item.custom.item.SkewerItem;
 import net.thewonderfultime.pony18craft.Item.custom.item.ThrowingGnomeItem;
 import net.thewonderfultime.pony18craft.Item.custom.trinkets.FlyAmuletTrinket;
 import net.thewonderfultime.pony18craft.Item.custom.trinkets.SchizophreniaRingTrinket;
@@ -112,6 +113,14 @@ public class ModItems {
             ModItemGroups.Pony18CraftGroup,
             ""
     );
+
+    public static final Item SKEWER = registerItem("skewer",
+            new SkewerItem(new FabricItemSettings().maxCount(1)),
+            ModItemGroups.Pony18CraftGroup,
+            "Идеально сочетается с чем-то хрюкающим"
+    );
+
+
 
 
     /**

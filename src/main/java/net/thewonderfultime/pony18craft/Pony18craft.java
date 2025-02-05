@@ -11,6 +11,7 @@ import net.thewonderfultime.pony18craft.entity.ModEntities;
 import net.thewonderfultime.pony18craft.entity.custom.*;
 import net.thewonderfultime.pony18craft.painting.ModPaintings;
 import net.thewonderfultime.pony18craft.world.custom_events.ModBlockBreakHandler;
+import net.thewonderfultime.pony18craft.world.custom_events.ModEvents;
 import net.thewonderfultime.pony18craft.world.custom_events.PlayerSizeHandler;
 import net.thewonderfultime.pony18craft.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
@@ -39,6 +40,8 @@ public class Pony18craft implements ModInitializer {
 		ModEffects.registerModEffects();
 
 		ModBlockBreakHandler.register();
+
+		ModEvents.register();
 
 		PlayerSizeHandler.register(); // Запускаем логику изменения хитбокса
 
