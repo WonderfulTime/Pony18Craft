@@ -86,7 +86,7 @@ public class SkewerWithPigBlock extends HorizontalFacingBlock {
 
 
 
-
+    @SuppressWarnings("deprecation") // Игнорирует предупреждения о deprecated методах
     @Override
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
         ItemStack itemStack = player.getStackInHand(hand);
@@ -115,17 +115,6 @@ public class SkewerWithPigBlock extends HorizontalFacingBlock {
 
 
 
-//    public void tick(BlockState state, ServerWorld world, BlockPos pos, net.minecraft.util.math.random.Random random) {
-//        // Заменяем текущий блок на жареную версию, сохраняя направление
-//        world.setBlockState(pos, ModBlocks.SKEWER_WITH_PIG_FRIED.getDefaultState()
-//                .with(FACING, state.get(FACING)));
-//
-//        // Добавляем звук и частицы готовки
-//        world.playSound(null, pos, SoundEvents.BLOCK_FIRE_EXTINGUISH,
-//                SoundCategory.BLOCKS, 1.0F, 1.0F);
-//        world.spawnParticles(ParticleTypes.SMOKE,
-//                pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5,
-//                10, 0.2, 0.2, 0.2, 0.02);
-//    }
+
 
 }
