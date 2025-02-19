@@ -43,13 +43,10 @@ public class GnomeEntity extends PathAwareEntity implements GeoEntity{
         super(entityType, world);
     }
 
-
-
-
-
-
-
-
+    @Override
+    public boolean cannotDespawn() {
+        return true;
+    }
 
     @Override
     protected Identifier getLootTableId() {

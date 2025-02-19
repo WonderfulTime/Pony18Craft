@@ -20,6 +20,7 @@
     ],
     "client": [
       "net.thewonderfultime.pony18craft.pony18craftClient"
+
     ],
     "fabric-datagen": [
       "net.thewonderfultime.pony18craft.Pony18CraftDataGenerator"

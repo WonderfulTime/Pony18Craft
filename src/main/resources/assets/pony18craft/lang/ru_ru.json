@@ -48,6 +48,10 @@
 
   "item.pony18craft.gnome_pickaxe": "Кирка Гномика",
 
+  "item.pony18craft.skewer": "Шампур",
+  "block.pony18craft.skewer_with_pig": "Шампур с Поросенком",
+  "block.pony18craft.skewer_with_pig_fried": "Шампур с Приготовленным Поросенком",
+
 
   "itemGroup.pony18craft.pony18craft_group": "Pony18Craft"
 }
