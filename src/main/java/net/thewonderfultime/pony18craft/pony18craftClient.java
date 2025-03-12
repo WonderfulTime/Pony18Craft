@@ -4,8 +4,13 @@ import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.particle.v1.ParticleFactoryRegistry;
+import net.fabricmc.fabric.api.client.rendering.v1.BuiltinItemRenderer;
+import net.fabricmc.fabric.api.client.rendering.v1.BuiltinItemRendererRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.minecraft.client.render.RenderLayer;
+import net.thewonderfultime.pony18craft.Item.ModItems;
+import net.thewonderfultime.pony18craft.Item.custom.item.totem.MagaTotemItem;
+import net.thewonderfultime.pony18craft.Item.custom.item.totem.MagaTotemRenderer;
 import net.thewonderfultime.pony18craft.block.ModBlocks;
 import net.thewonderfultime.pony18craft.entity.ModEntities;
 import net.thewonderfultime.pony18craft.entity.client.*;
@@ -13,6 +18,8 @@ import net.thewonderfultime.pony18craft.entity.custom.SkromnyagaEntity;
 import net.thewonderfultime.pony18craft.particle.ModParticles;
 import net.thewonderfultime.pony18craft.particle.PeeParticle;
 import net.thewonderfultime.pony18craft.world.custom_events.ClientModEvents;
+import software.bernie.geckolib.GeckoLib;
+import software.bernie.geckolib.renderer.GeoItemRenderer;
 
 public class pony18craftClient implements ClientModInitializer {
     @Override
@@ -35,7 +42,10 @@ public class pony18craftClient implements ClientModInitializer {
         EntityRendererRegistry.register(ModEntities.THROWING_GNOME_PROJECTILE, ThrowingGnomeProjectileRenderer::new);
 
 
+//        // Регистрируем рендер кастомного тотема
+//        BuiltinItemRendererRegistry.INSTANCE.register(ModItems.MAGA_TOTEM, new MagaTotemRenderer());
 
 
+        GeckoLib.initialize();
     }
 }

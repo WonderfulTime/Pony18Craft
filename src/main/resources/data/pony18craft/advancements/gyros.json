@@ -12,7 +12,7 @@
   "parent": "pony18craft:pony18craft",
   "criteria": {
     "requirement": {
-      "trigger": "minecraft:using_item",
+      "trigger": "minecraft:using_item.pony18craft:gyros",
       "conditions": {
         "items": [
           {

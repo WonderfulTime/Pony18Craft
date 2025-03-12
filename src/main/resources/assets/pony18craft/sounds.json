@@ -73,7 +73,6 @@
 
 
 
-
   "gnome_laugh_sound": {
     "subtitle": "pony18craft:entity.gnome.gnome_laugh_sound",
     "sounds": [
@@ -102,6 +101,39 @@
     "subtitle": "pony18craft:entity.skromnyaga.skromnyaga_ambient_sound",
     "sounds": [
       "pony18craft:entity/skromnyaga/skromnyaga_ambient_sound"
+    ]
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "maga_totem_sound": {
+    "subtitle": "pony18craft:item.maga_totem_sound",
+    "sounds": [
+      "pony18craft:item/maga_totem_sound"
     ]
   }
 

@@ -27,8 +27,11 @@ public class ModSounds {
     public static SoundEvent GNOME_FOOTSTEPS_SOUND = registerSoundEvent("gnome_footsteps_sound");
     public static SoundEvent SKROMNYAGA_AMBIENT_SOUND = registerSoundEvent("skromnyaga_ambient_sound");
 
-
-
+    /**
+     * звуки items
+     * всегда вносить в sounds.json !!!!!!!!!!!!!!!!!!!!!!
+     */
+    public static SoundEvent MAGA_TOTEM_USE = registerSoundEvent("maga_totem_sound");
 
     private static SoundEvent registerSoundEvent(String name){
 

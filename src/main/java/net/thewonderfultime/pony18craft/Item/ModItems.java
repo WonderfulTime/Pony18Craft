@@ -11,6 +11,7 @@ import net.thewonderfultime.pony18craft.Item.custom.food.CustomFoodWithEffects;
 
 import net.thewonderfultime.pony18craft.Item.custom.item.SkewerItem;
 import net.thewonderfultime.pony18craft.Item.custom.item.ThrowingGnomeItem;
+import net.thewonderfultime.pony18craft.Item.custom.item.totem.MagaTotemItem;
 import net.thewonderfultime.pony18craft.Item.custom.trinkets.FlyAmuletTrinket;
 import net.thewonderfultime.pony18craft.Item.custom.trinkets.SchizophreniaRingTrinket;
 import net.thewonderfultime.pony18craft.Item.materials.CommonToolMaterial;
@@ -118,6 +119,12 @@ public class ModItems {
             new SkewerItem(new FabricItemSettings().maxCount(1)),
             ModItemGroups.Pony18CraftGroup,
             "Идеально сочетается с чем-то хрюкающим"
+    );
+
+    public static final Item MAGA_TOTEM = registerItem("maga_totem",
+            new MagaTotemItem(new FabricItemSettings().maxCount(1)),
+            ModItemGroups.Pony18CraftGroup,
+            "Оно сияет..."
     );
 
 
